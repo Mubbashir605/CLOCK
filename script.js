@@ -4,8 +4,8 @@
     var seconds = document.getElementById("secondsspan");
 
     var day = document.getElementById("dayspan");
-    var date = document.getElementById("datespan");
     var month = document.getElementById("monthspan");
+    var date = document.getElementById("datespan");
     var year = document.getElementById("yearspan");
 
 
