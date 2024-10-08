@@ -17,8 +17,8 @@ setInterval(()=>{
         seconds.innerText = time.getSeconds() + " AM"
         var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
         day.innerText = days[time.getDay()];
-        date.innerText = time.getDate() 
         month.innerText = (time.getMonth() + 1) 
+        date.innerText = time.getDate() 
         year.innerText = time.getFullYear();
     }
     else{
@@ -27,8 +27,8 @@ setInterval(()=>{
         seconds.innerText =  time.getSeconds() + " PM"
         var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         day.innerText = days[time.getDay()];
-        date.innerText = time.getDate() < 10 ? "0" + time.getDate() : time.getDate();
         month.innerText = (time.getMonth() + 1) 
+        date.innerText = time.getDate() < 10 ? "0" + time.getDate() : time.getDate();
         year.innerText = time.getFullYear();
     }
     if(time.getSeconds()<10){
